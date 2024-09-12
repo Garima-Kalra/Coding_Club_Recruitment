@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+.dataContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    padding-left: 1.75em;
+    background-color: rgb(240, 240, 240);
+}
+#mainData1{
+    height: 522px;
+    width: 491px;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+#mainData2{
+    height: 522px;
+    width: 246px;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+.duo{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 522px;
+    width: 257px;
+    margin-top: 53px;
+    margin-right: 12px;
+}
+#mainData3{
+    height: 246px;
+    width: 257px;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+#mainData4{
+    height: 246px;
+    width: 257px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 19px;
+}
+#sideData{
+    height: 485px;
+    width: 363px;
+    overflow: scroll;
+}
+@font-face {
+    font-family: 'Casad-Serial Regular'; 
+    src: url('Casad-Serial Regular.ttf'); 
+  }
+@font-face {
+    font-family: 'Merriweather Regular'; 
+    src: url('/Users/garimakalra/Downloads/Merriweather/Merriweather Regular/Merriweather Regular.ttf'); 
+}
+  body{
+    margin: 0;
+    margin-bottom: 15px;
+    background-color: rgb(240, 240, 240);
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+.heading{
+    color: white;
+    width: 99vw;
+    font-size: 4.8cap;
+    background-image: repeating-linear-gradient(
+    -30deg,
+    #1d1d1d,
+    #333 90px,
+    #1d1d1d 90px,
+    #333 180px
+ );
+    font-family: 'Casad-Serial Regular', sans-serif; 
+    padding: 20px 1vw; 
+}
+.letter{
+    font-size: 2cap;
+}
+.nav-list{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+.nav-list-item{
+    display: inline-flex;
+    margin: 0%;
+    
+}
+.navbar-contents{
+    margin-bottom: 13px;
+    margin-top: 0px;
+    margin-left: 40px;
+    height: 50px;
+}
+.nav-list-item a.active{
+    display: block;
+    background-color: black;
+    color: white;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+
+}
+.nav-list-item a{
+    color:  black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+    padding: 20px;
+}
+.nav-list-item :hover{
+    background-color: #000;
+    color: #ffffff;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+
+}
+.news{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #d9d9d9;
+    margin-left: 0%;
+}
+.header{
+    list-style-type: none;
+    display: inline-flex;
+    font-family: 'Merriweather Regular', sans-serif;
+}
+.cloud{
+    margin-left: 660px;
+    list-style-type: circle;
+    display: inline-flex;
+}
+.search {
+   margin-left: 400px;
+}
+.content{
+    margin-left: 75px;
+    color: rgb(113, 111, 111);
+}
+.sideData-content {
+    background-color:white; 
+    height: 111.5px;
+    width: 363px;
+    margin-top: 9.5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.sideData-image img{
+    height: 95px;
+    width: 95px;
+    border-radius: 5px;
+    margin: 9px;
+}
+.sideData-text{
+    font-size: 16px;
+    text-align: left;
+    color: rgb(17, 17, 17);
+}
+.date{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    color: #ebe9e9;
+    text-shadow: black 1px 0 10px;
+    font-weight: bold;
+}
+.date p{
+    margin: 3px;
+}
+#btn{
+    background: rgb(248, 248, 248);
+    margin-top: 53px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+#btn button {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    width: 50%;
+    box-shadow: none;
+    border: none;
+}
+#btn .panel.active {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    display: block;
+}
+#btn .panel{
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+.mainData1-image img{
+    display: block;
+    object-fit: cover;
+    height: 522px;
+    width: 491px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 53px;
+    margin-right: 19px;
+    padding-left: 25px;
+    background-size: cover;
+}
+.mainData2-image img{
+    height: 522px;
+    width: 246px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 53px;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+.mainData3-image img{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 246px;
+    width: 257px;
+    object-fit: cover;
+    border-radius: 5px;
+    background-size: cover;
+}
+.mainData4-image img{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 246px;
+    width: 257px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-size: cover;
+}
+.mainData1-content{
+    display: block;
+    height: 522px;
+    width: 491px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 53px;
+    margin-right: 19px;
+}
+.mainData1-text{
+    position: relative;
+    z-index: 1;
+    font-size: 38px;
+    text-align: left;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: black 1px 0 10px;
+}
+.mainData1-text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} .mainData2-text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainData3-text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainData4-text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainData2-content{
+    height: 522px;
+    width: 246px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+.mainData2-text{
+    z-index: 1;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-shadow: black 1px 0 10px;
+}
+.mainData3-content{
+    height: 246px;
+    width: 257px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mainData3-text{
+    z-index: 1;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-shadow: black 1px 0 10px;
+    text-decoration: none;
+}
+.mainData4-content{
+    height: 246px;
+    width: 257px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+.mainData4-text{
+    z-index: 1;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-shadow: black 1px 0 10px;
+    text-decoration: none;
+}
+.mainData1-image img{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.mainData2-image img{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.mainData3-image img {
+    margin-left: 0%;
+}
+.mainData4-image img {
+    margin-left: 0%;
+}
+.mainData1-sub{
+    position: relative;
+    bottom: 45%;
+    margin-left: 10px;
+}
+.mainData2-sub{
+    position: relative;
+    bottom: 42%;
+    padding-left: 10px;
+}
+.mainData3-sub{
+    position: relative;
+    bottom: 60%;
+    margin-left: 10px;
+}
+.mainData4-sub{
+    position: relative;
+    bottom: 60%;
+    margin-left: 10px;
+}
+.mainData1-btn button{
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+    margin-right: 10px; 
+}
+.mainData2-btn button{
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+} 
+.mainData3-btn button{
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+} 
+.mainData4-btn button { 
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+}
+.blog{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.blog-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

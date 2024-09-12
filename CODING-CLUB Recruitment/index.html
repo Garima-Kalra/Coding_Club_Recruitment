@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>facts</title>
+</head>
+<body>
+    <div class="heading">
+        <b><span class="letter">T</span>HE<span class="letter">N</span>EWS<span class="letter">H</span>IVE</b>
+    </div>
+    <div class="navbar-contents">
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a class="active" href="#" >HOME</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">NEWS</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">WORLD</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">BUSINESS</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">POLITICS</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#">ENTERTAINMENT</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#" >SPORTS <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+            <li class="nav-list-item">
+                <a href="#" class="search"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+            </li>
+        </ul>
+    </div>
+    <div class = "news" >
+            <ul>
+                <li class = "header"><i class="fa-solid fa-bolt-lightning"></i></li>
+                <li class = "header"><b>BREAKING NEWS</b></li>
+                <span class="content"><li class = "header">Local coming back on street again after</li></span>
+                <span class="cloud"><li class = "header"><i class="fa-solid fa-cloud-moon-rain"></i></li>
+                <li class="header" style="margin-left: 5px;">  ° , September 14, 2023 in</li></span>
+            </ul>
+    </div>
+    <div class="dataContainer">
+        <div id="mainData1"></div>
+        <div id="mainData2"></div>
+        <div class="duo">
+           <div id="mainData3"></div>
+           <div id="mainData4"></div>
+        </div>
+        <div class="scroll-bar">
+            <div id = "btn">
+                <button class = "panel active">Latest</button> 
+                <button class = "panel">Popular</button>
+             </div>
+            <div id="sideData"></div>
+        </div>
+    </div>  
+    
+    <div id="displayBlog" class="blog">
+        <div class="blog-content">
+            <span class="close">&times;</span>
+            <p id="displayContent"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
